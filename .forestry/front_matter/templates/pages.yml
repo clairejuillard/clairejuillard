@@ -1,0 +1,18 @@
+---
+label: Pages
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Titre long
+  name: longtitle
+  description: Titre qui s'affichera dans la page (peut être différent du titre de
+    menu)
+- type: file
+  name: image1
+  label: Image 1
+  description: Première image sur le coté
+- type: file
+  name: image_2
+  label: Image 2
+  description: Deuxième image à afficher sur le coté de la page
