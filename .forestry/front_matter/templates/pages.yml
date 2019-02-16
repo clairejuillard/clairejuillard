@@ -30,3 +30,5 @@ fields:
   name: image_2
   label: Image 2
   description: Deuxième image à afficher sur le coté de la page
+pages:
+- content/accueil.md
