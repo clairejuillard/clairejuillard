@@ -1,0 +1,11 @@
+<img class=' {{ .Get "class" }}' alt='{{ .Get "alt" }}"' src="{{ .Get "src" }}" />
+<img
+class='lazy' 
+src='{{ "placeholder.png" | absURL }}'
+srcset="{{ $.Site.Data.paramsite.baseUrlImage }}w_800/{{ .Get "src" }} 800w,
+{{ $.Site.Data.paramsite.baseUrlImage }}w_710/{{ .Get "src" }} 710w,
+{{ $.Site.Data.paramsite.baseUrlImage }}w_1000/{{ .Get "src" }} 1000w,
+{{ $.Site.Data.paramsite.baseUrlImage }}w_1420/{{ .Get "src" }} 1420w"
+data-src="{{ $.Site.Data.paramsite.baseUrlImage  }}w_800/{{ .Get "src" }}"
+alt="{{ .Get "alt" }}"
+/>

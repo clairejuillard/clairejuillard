@@ -1,0 +1,6 @@
+baseURL = "https://www.claire-juillard-psychologue.fr/"
+languageCode = "fr-FR"
+theme = "clairejuillard"
+[params]
+description = "Claire Juillard, psychologue et psychothérapeute installée à Lyon 6ème, proche de Villeurbanne dans le département du Rhône (69) reçoit enfants et adultes."
+logo = "/static/portrait.jpg"

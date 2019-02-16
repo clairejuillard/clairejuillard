@@ -1,0 +1,438 @@
+@font-face {
+	font-family: "glyphs";
+	src: url("../../../fonts/Glyphs-Regular.woff");
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: "opensans";
+	src: url("../../../fonts/OpenSans-400.woff");
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: "overlock";
+	src: url("../../../fonts/Overlock-Regular.woff");
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: "weather";
+	src: url("../../../fonts/Weather.woff");
+	font-display: swap;
+  }
+  @font-face {
+	font-family: "cinzel";
+	src: url("../../../fonts/Cinzel.woff");
+	font-display: swap;
+  }
+
+body{
+	background:$couleur-background-general;
+	font-family:overlock;
+	font-size:1em;
+}
+
+.titleSiteMenu{
+	font-family:Times, "Times New Roman", Georgia, serif;
+	text-transform:uppercase;
+}
+
+
+.navbar-burger{
+	color:$couleur-light;
+}
+
+.menu-burger{
+	float:right;
+	margin-top:-1em;
+}
+.navbar, .is-active{
+	a{
+		color:$couleur-text-menu;
+	}
+	a:hover{
+		color:$couleur-hover-menu;
+		background-color:$couleur-menu;
+	}
+	.content-fixed{
+		background-color:$couleur-menu;
+		text-align: center;
+		width:100%;
+
+		.fixed-links{
+			margin-right:3em;
+		}
+		.infos-nav-bar{
+			padding-top:1em;
+		}
+	}
+}
+
+.menuGeneral{
+	#navMenuDesktop{
+		.navbar-item{
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
+			
+		}
+	}	
+	background:$couleur-menu;
+	font-family:cinzel;
+	font-size:1.4em;
+}
+
+#navMenuMobile{
+	background:$couleur-menu;
+	font-family:cinzel;
+	font-size:1.4em;
+}
+
+
+.bloc-portrait{
+	padding-top:1em;
+	padding-bottom:1em;
+	background:$couleur-light;
+	font-family:cinzel;
+}
+
+.titles{
+	h1{
+		color:$couleur-header;
+		font-family:cinzel;
+		font-size:2.8em;
+		//text-shadow: 1px 1px 2px black;
+		text-transform:uppercase;
+	}
+	
+	.subtitle{
+		font-size:2em;
+		color:$couleur-header;
+		font-family:cinzel;
+	}
+	@media screen and (max-width: 800px) {
+		text-align:center;
+	}
+}
+
+.content{
+	h1{
+		font-family:cinzel;
+		color:$couleur-header;
+	}
+
+	h2{
+		font-family:cinzel;
+		color:$couleur-header;
+	}
+}
+
+
+.portrait{
+	border-radius: 50%;
+}
+	
+.portrait-claire{
+	text-align:center;
+}
+	
+@media screen and (max-width: 800px) {
+	.portrait-claire{
+		max-width:150px;
+	}	
+}
+
+
+.centered{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+
+
+.content,.moreContent{
+	background:$couleur-light;
+	padding:4em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+/*******************************************************/
+
+.article{
+
+	.title-article, .subtitle-article{
+		font-family:Times, "Times New Roman", Georgia, serif;
+		text-transform:uppercase;
+	}
+
+
+	@media screen and (max-width: 800px) {
+		.content-article{
+			padding-left:1em;
+			padding-right:1em;
+		}	
+	}
+
+	
+	.title-article{
+		font-size:2.3em;
+	}
+	
+	.subtitle-article{
+		font-size:1.5em;
+	}
+	
+	.subtitle-article{
+		margin-top:2em;
+	}
+
+	.description-article{
+		font-size:1.1em;
+		font-weight:bold;
+		margin-bottom:1em;
+	}
+
+
+	.top-article{
+		padding-top:1em;
+
+		.title-header-article{
+			font-size:3.3em;
+			font-family:"title1", Helvetica, Arial, sans-serif;
+			text-align:center;
+			
+		}
+
+		
+		@media screen and (max-width: 640px) {
+			.title-header-article{
+				font-size:2.5em;
+			}
+		}
+
+		
+		.logo-article{
+			margin-bottom:0.8em;
+			height:350px;
+			width:100%;
+			&:hover{
+				transform: scale(1.01,1.01);
+				transition-timing-function: ease-out;
+				transition-duration: 250ms;
+			}
+			img { 
+				height: 350px;
+				width:100%;
+				object-fit: cover;
+			}
+		}
+	
+		.publication-titre{
+			z-index:1;
+			background-color:$light;
+			padding:1em;
+			width:100%;
+		}
+	}
+
+
+}
+
+
+section.bloc{
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+
+.padding{
+	padding-left:1.5em;
+	padding-right:1.5em;
+}
+
+.section-home{
+	background-color:white;
+	height:80vh;
+}
+
+
+.background-home{
+	/* The image used */
+	background-image: url("../../img/background-home.jpg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	
+	display: flex;
+	align-items: center;
+
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background: rgba(255,255,255,0);
+	}
+
+
+	
+	p.title-part1{
+		color:white;
+		font-size:1.8em;
+		text-shadow: 1px 1px 2px black;
+	}
+	
+	p.title-part2{
+		color:white;
+		font-size:1.6em;
+		text-shadow: 1px 1px 2px black;
+	}
+}
+
+
+
+
+
+
+h2{
+	font-size : 2em;
+	font-family:"title1", Helvetica, Arial, sans-serif;
+}
+
+h3{
+	font-family:"title1", Helvetica, Arial, sans-serif;
+}
+
+footer{
+	margin-top:3em;
+	padding-top:5em;
+	padding-bottom:2em;
+	background:$footer-background-color;
+	color:$couleur-text;
+
+	a{
+		color:$couleur-liens-hover;
+	}
+
+	p{
+		line-height:1.8em;
+	}
+
+
+	strong{
+		color:$couleur-text;
+	}
+
+	a{
+		color:$couleur-princ;
+		&:hover{
+			color:$couleur-liens-hover;
+		}
+	}
+
+	.name-brand{
+		font-family:cinzel;
+		color:$couleur-header;
+		text-transform:uppercase;
+		border-bottom : 1px solid $couleur-princ;
+		font-size:1.6em;
+	}
+
+	.credits{
+		margin-top:3em;
+		text-align:center;
+		width:100%;
+		color:$discret-sombre;
+		font-size:0.8em;
+		a{
+			color:$discret-sombre;
+		}
+		
+	}
+}
+
+
+
+.seeall{
+	text-align:right;
+	width:100%;
+}
+
+a{
+	//text-decoration:underline;
+	color:$couleur-princ;
+}
+
+
+.list-items{
+	margin-top:2em;
+}
+
+.text-article{
+	img{
+		padding-top:0.7em;
+		padding-bottom:0.7em;
+	}
+	h2{
+		margin-top:1.4em;
+	}
+
+	p{
+		margin-bottom:1em;
+	}
+
+	ul,ol{
+		margin-top:1em;
+		margin-bottom:1em;
+	}
+
+	ul{
+		li{
+			margin-left:1em;
+			list-style-type:square;
+		}
+	}
+
+	ol{
+		li{
+			margin-left:1em;
+		}
+	}
+
+	h3{
+		margin-top:1.2em;
+	}
+
+	a{
+		text-decoration:underline;
+		&:hover{
+			color:$couleur-princ-hover;
+		}
+	}
+
+	blockquote{
+		border-left:$couleur-princ 3px solid;
+		font-style:italic;
+		margin-top:1em;
+		margin-bottom:1em;
+		padding-left:0.6em;
+		font-size:2em;
+		color:#757575;
+		p{
+			&:before {content:"\201C"; left:0; top:0;}
+			&:after {content:"\201D"; right:0; bottom:0;}
+		}
+
+	}
+}

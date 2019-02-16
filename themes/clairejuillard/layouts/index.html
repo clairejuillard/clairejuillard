@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	{{ partial "head.html" . }}
+</head>
+
+<body class="has-navbar-fixed-top">
+	{{ partial "fixed.html" .}}
+	{{ partial "menu.html" .}}
+
+	{{ range where .Data.Pages "Type" "homepage" }}
+	<article>
+		<div class="container">
+			<div class='columns'>
+				<div class='column is-two-thirds'>
+					<div class="content">
+						<header>
+							<h1 class='is-1 title-header-article'>
+								{{ if (not (isset .Params "titlelong")) }}
+								{{ .Title }}
+								{{else}}
+								{{ .Params.titlelong}}
+								{{end}}
+							</h1>
+						</header>
+						{{ .Content }}
+					</div>
+					{{ end }}
+				</div>
+
+				<div class='column is-one-thirds'>
+					<aside>
+						<div class='moreContent'>
+
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	{{ partial "footer.html" . }}
+
+
+	<script>
+		//Gestion de la map
+		mapboxgl.accessToken = '{{ $.Site.Data.paramsite.mapboxkey }}';
+		var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/streets-v10',
+			center: [{{ $.Site.Data.paramsite.longitude }}, {{ $.Site.Data.paramsite.latitude }}], // starting position [lng, lat]
+		zoom: 14	 // starting zoom
+		});
+
+		map.scrollZoom.disable();
+
+		new mapboxgl.Popup()
+			.setLngLat({ lng: {{ $.Site.Data.paramsite.longitude }}, lat: {{ $.Site.Data.paramsite.latitude }}})
+			.setHTML("<h2><span class='name-brand'>{{ $.Site.Data.paramsite.title }}</span></h2><p>{{ $.Site.Data.paramsite.subtitle }} <br>{{ $.Site.Data.paramsite.location }}<p>")
+			.addTo(map);
+	</script>
+
+</body>
+
+</html>

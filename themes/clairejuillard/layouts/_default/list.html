@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  <body class="has-navbar">
+
+    {{ partial "menu.html" .}}
+
+
+    <div class="container article">
+        <header>
+            <div class='top-article'>
+                {{ if isset .Params "logo" }}
+                <div class='logo-article'>
+                        <img
+                        class='lazy' 
+                        src='{{ "img/placeholder.png" | absURL }}'
+                        srcset="{{ $.Site.Data.paramsite.baseUrlImage }}w_800/{{ .Params.logo }} 800w,
+                        {{ $.Site.Data.paramsite.baseUrlImage }}w_710/{{ .Params.logo }} 710w,
+                        {{ $.Site.Data.paramsite.baseUrlImage }}w_1000/{{ .Params.logo }} 1000w,
+                        {{ $.Site.Data.paramsite.baseUrlImage }}w_1420/{{ .Params.logo }} 1420w"
+                        data-src="{{ $.Site.Data.paramsite.baseUrlImage  }}w_800/{{ .Params.logo }}"
+                        alt=""
+                        />
+                </div>
+                {{ end }}
+
+                <div class='columns header-article'>
+                    <div class='column is-12'>
+                        <h1 class='title-header-article'>
+                            {{ if (not (isset .Params "titlelong")) }}
+                            {{ .Title }}
+                            {{else}}
+                            {{ .Params.titlelong}}
+                            {{end}}
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class='columns content-article'>
+            <div class='column'>
+                {{ if isset .Params "description" }}
+                <div class='description-article'>
+                    {{ .Params.description }}
+                </div>
+                {{ end }}
+
+                <div class='text-list-article'>
+                    {{ .Content }}
+
+
+                    <div class='list-items columns'>
+                        {{ range .Pages }}
+                        <div class='column is-6'>
+                            <a href='{{ .RelPermalink }}'>
+                                <div class='publication'>
+                                    <div class='publication-image'>
+                                        <img class='lazy' src='{{ "placeholder.png" | absURL }}' data-src='{{ $.Site.Data.paramsite.baseUrlImage }}/w_600/{{ .Params.logo }}' alt="Logo de l'article {{ .Title }}" />
+                                    </div>
+                                    
+                                    <div class='publication-titre'>
+                                            <h3 class='subtitle is-3'>{{ .Title }}</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ template "_internal/pagination.html" . }}
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+{{ partial "footer.html" . }}
+</body>
+
+</html> 

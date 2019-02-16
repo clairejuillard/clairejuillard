@@ -1,0 +1,16 @@
+{
+  "title": "Claire Juillard",
+  "author": "Claire Juillard",
+  "lang": "fr_FR",
+  "subtitle": "Psychologue - Lyon",
+  "subtitle2": "Thérapie EMDR",
+  "location": "112 Rue de Sèze 69006 Lyon",
+  "latitude": 45.76895,
+  "longitude": 4.85498,
+  "mail": "cjuillard.psychologue@hotmail.com",
+  "phone": "06.43.20.57.85",
+  "siret": "699336947 ",
+  "analytics": "UA-134255343-1",
+  "mapboxkey": "pk.eyJ1IjoibmlvdWY0IiwiYSI6ImNqczBlaHFheDFkZmc0OW9hd2tpa2l1aWQifQ.Sg9XRTRIt83gQ0X_57MyEQ",
+  "baseUrlImage": "http://res.cloudinary.com/clairejuillard"
+}

@@ -1,0 +1,39 @@
+<footer>
+    <div class='container padding'>
+        <p><span class='name-brand'>{{ $.Site.Data.paramsite.title }}</span><br/>
+        {{ $.Site.Data.paramsite.subtitle }} <br/>
+        <a target="_blank" href='https://www.openstreetmap.org/?mlat={{ $.Site.Data.paramsite.latitude }}&mlon={{ $.Site.Data.paramsite.longitude }}#map=18/{{ $.Site.Data.paramsite.latitude }}/{{ $.Site.Data.paramsite.longitude }}'>{{ $.Site.Data.paramsite.location }}</a><br/>
+        Numéro de Siret :  {{ $.Site.Data.paramsite.siret }}    
+        </p>
+
+        <p>
+            <strong>téléphone</strong> : <a href='tel:{{ $.Site.Data.paramsite.phone }}'>{{ $.Site.Data.paramsite.phone }}</a><br>
+            <strong>mail</strong> : <a href='mailto:{{ $.Site.Data.paramsite.mail }}'>{{ $.Site.Data.paramsite.mail }}</a>
+        </p>
+        
+        <p class='credits'>Réalisation Fabien Grignoux</p>
+    </div>
+</footer>
+
+
+<script>
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#'+burger.dataset.target);
+     
+      burger.addEventListener('click', function(){
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+</script>
+
+<script src='{{ "/js/yall.min.js" | absURL }}'></script>
+<script>
+    document.addEventListener("DOMContentLoaded", yall);
+</script>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
