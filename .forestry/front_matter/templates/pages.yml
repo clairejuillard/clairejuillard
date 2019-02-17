@@ -4,10 +4,24 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  name: title
+  label: Titre
+  description: Titre de la page
+  config:
+    required: true
+- type: text
   label: Titre long
   name: longtitle
   description: Titre qui s'affichera dans la page (peut être différent du titre de
     menu)
+- type: number
+  name: weight
+  label: Poids de la page
+  description: Affichage dans le menu. Le plus petit nombre s'affiche avant
+- type: text
+  label: Type de page
+  name: type
+  description: choisir homepage pour la page d'accueil. Sinon laisser libre.
 - type: file
   name: image1
   label: Image 1
@@ -16,3 +30,5 @@ fields:
   name: image_2
   label: Image 2
   description: Deuxième image à afficher sur le coté de la page
+pages:
+- content/accueil.md
