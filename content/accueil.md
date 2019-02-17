@@ -1,7 +1,7 @@
 +++
 date = "2019-02-16T11:22:17+00:00"
-image1 = ""
-image_2 = ""
+image1 = "/uploads/fautueilsbleus.jpg"
+image_2 = "/uploads/tableenfants.jpg"
 longtitle = "Votre psychothérapeute à Lyon"
 title = "Accueil"
 type = "homepage"
