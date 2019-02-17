@@ -1,51 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
+<head>
     {{ partial "head.html" . }}
-  </head>
+</head>
 
-  <body class="has-navbar">
+<body class="has-navbar">
 
     {{ partial "menu.html" .}}
 
+	<article>
+		<div class="container">
+			<div class='columns'>
+				<div class='column is-two-thirds'>
+					<div class="content">
+						<header>
+							<h1 class='is-1 title-header-article'>
+								{{ if (not (isset .Params "longtitle")) }}
+								{{ .Title }}
+								{{else}}
+								{{ .Params.titlelong}}
+								{{end}}
+							</h1>
+						</header>
+						{{ .Content }}
+					</div>
+				</div>
 
-    <div class="container article">
-        <article>
-            <header>
-                <div class='top-article'>
+				<div class='column is-one-thirds'>
+					<aside>
+						<div class='moreContent'>
 
-                    <div class='columns header-article'>
-                        <div class='column is-12'>
-                            <h1 class='title-header-article'>
-                                {{ if (not (isset .Params "longtitle")) }}
-                                {{ .Title }}
-                                {{else}}
-                                {{ .Params.titlelong}}
-                                {{end}}
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-
-            <div class='columns content-article'>
-                <div class='column is-offset-2 is-8'>
-                    {{ if isset .Params "description" }}
-                    <div class='description-article'>
-                        {{ .Params.description }}
-                    </div>
-                    {{ end }}
-
-                    <div class='text-article'>
-                         {{ .Content }}
-                    </div>
-                </div>
-            </div>        
-        </article>
-    </div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+    </article>
+    
     {{ partial "footer.html" . }}
-  </body>
+</body>
 
-</html> 
+</html>

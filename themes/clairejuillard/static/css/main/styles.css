@@ -11562,7 +11562,7 @@ footer {
 }
 
 footer a {
-  color: #025d8c;
+  color: #025d8c !important;
 }
 
 footer p {

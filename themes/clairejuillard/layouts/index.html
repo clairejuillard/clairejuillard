@@ -17,7 +17,7 @@
 					<div class="content">
 						<header>
 							<h1 class='is-1 title-header-article'>
-								{{ if (not (isset .Params "titlelong")) }}
+								{{ if (not (isset .Params "longtitle")) }}
 								{{ .Title }}
 								{{else}}
 								{{ .Params.titlelong}}
@@ -26,7 +26,6 @@
 						</header>
 						{{ .Content }}
 					</div>
-					{{ end }}
 				</div>
 
 				<div class='column is-one-thirds'>
@@ -39,7 +38,8 @@
 			</div>
 		</div>
 	</article>
-
+	{{ end }}
+	
 	{{ partial "footer.html" . }}
 
 
