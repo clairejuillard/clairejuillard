@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/paramsite.json
   label: Configuration
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
