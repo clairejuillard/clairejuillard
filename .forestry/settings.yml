@@ -13,7 +13,7 @@ sections:
   path: data/paramsite.json
   label: Configuration
 upload_dir: ''
-public_path: ''
+public_path: https://res.cloudinary.com/clairejuillard/w_900
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
