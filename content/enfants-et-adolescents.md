@@ -1,6 +1,6 @@
 +++
 date = "2019-02-17T17:31:42+00:00"
-image1 = "/uploads/tableenfants.jpg"
+image1 = "/v1550479252/tableenfants.jpg"
 image_2 = ""
 longtitle = "Enfants et adolscents - Lyon"
 title = "Enfants et adolescents"
