@@ -1,6 +1,6 @@
 +++
 date = "2019-02-17T17:30:25+00:00"
-image1 = "/uploads/bureaupsy.jpg"
+image1 = "/v1550479215/bureaupsy.jpg"
 image_2 = ""
 longtitle = "Consultations et thérapies pour adultes"
 title = "Adultes"
