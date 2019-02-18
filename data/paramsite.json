@@ -12,12 +12,12 @@
   "siret": "699336947 ",
   "analytics": "UA-134255343-1",
   "mapboxkey": "pk.eyJ1IjoibmlvdWY0IiwiYSI6ImNqczBlaHFheDFkZmc0OW9hd2tpa2l1aWQifQ.Sg9XRTRIt83gQ0X_57MyEQ",
-  "baseUrlImage": "http://res.cloudinary.com/clairejuillard",
+  "baseUrlImage": "http://res.cloudinary.com/clairejuillard/",
   "horaires":{
     "Mardi":"08h00 - 20h00",
     "Mercredi" : "08h00 - 20h00",
     "Vendredi" : "08h00 - 20h00"
   },
-  "acces": "Metro ligne A, arrêt Masséna à 2 minutes",
-  
+  "acces": "Metro ligne A, arrêt Masséna à 2 minutes"
+
 }

@@ -13,7 +13,7 @@
 	<article>
 		<div class="container">
 			<div class='columns'>
-				<div class='column is-two-thirds'>
+				<div class='column is-7'>
 					<div class="content">
 						<header>
 							<h1 class='is-1 title-header-article'>
@@ -28,10 +28,35 @@
 					</div>
 				</div>
 
-				<div class='column is-one-thirds'>
+				<div class='column is-5'>
 					<aside>
 						<div class='moreContent'>
-
+							<div class='imageSide'>
+								<img
+								class="lazy"
+								src='{{ "img/placeholder.png" | absURL }}'
+								srcset="{{ $.Site.Data.paramsite.baseUrlImage }}w_800/{{ .Params.image1 }} 800w,
+								{{ $.Site.Data.paramsite.baseUrlImage }}w_710/{{ .Params.image1 }} 710w,
+								{{ $.Site.Data.paramsite.baseUrlImage }}w_1000/{{ .Params.image1 }} 1000w,
+								{{ $.Site.Data.paramsite.baseUrlImage }}w_1420/{{ .Params.image1 }} 1420w"
+								data-src="{{ $.Site.Data.paramsite.baseUrlImage  }}w_800/{{ .Params.image1 }}"
+								alt=""
+								/>
+							</div>
+						</div>
+						<div class='moreContent'>
+							<div class='imageSide'>
+								<img
+								class="lazy"
+								src='{{ "img/placeholder.png" | absURL }}'
+								srcset="{{ $.Site.Data.paramsite.baseUrlImage }}w_800/{{ .Params.image_2 }} 800w,
+								{{ $.Site.Data.paramsite.baseUrlImage }}w_710/{{ .Params.image_2 }} 710w,
+								{{ $.Site.Data.paramsite.baseUrlImage }}w_1000/{{ .Params.image_2 }} 1000w,
+								{{ $.Site.Data.paramsite.baseUrlImage }}w_1420/{{ .Params.image_2 }} 1420w"
+								data-src="{{ $.Site.Data.paramsite.baseUrlImage  }}w_800/{{ .Params.image_2 }}"
+								alt=""
+								/>
+							</div>
 						</div>
 					</aside>
 				</div>
