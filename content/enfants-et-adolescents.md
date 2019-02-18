@@ -6,9 +6,10 @@ longtitle = "Enfants et adolscents - Lyon"
 title = "Enfants et adolescents"
 type = ""
 weight = 3
+[menu.main]
+weight = 3
 
 +++
-  
 Certains enfants et adolescents peuvent être initiateurs d'une demande de consultations chez un **psychologue**. Cependant, la plupart du temps c'est avant tout le parent, l'école, l'orthophoniste qui vont les orienter chez le psychologue.  
  ​  
  Il m'importe donc de créer, avec l'enfant, un espace qui lui sera confortable et agréable bien qu'il n'ait pas formulé de souhait de venir à ma rencontre.   

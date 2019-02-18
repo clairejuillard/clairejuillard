@@ -6,6 +6,8 @@ longtitle = "Votre psychothérapeute à Lyon"
 title = "Accueil"
 type = "homepage"
 weight = 1
+[menu.main]
+weight = 1
 
 +++
 Je suis psychologue, diplômée de l'université Lumière-Lyon-II depuis 2011. Je suis formée à la thérapie EMDR avec l'Institut Français d'EMDR ​ Mon parcours professionnel en tant que psychologue à débuté avec l'accompagnement vers l'insertion sociale et professionnelle d'adultes rencontrant des troubles psychiques et divers handicaps associés. Mon engagement auprès de l'association Vivre son Deuil m'a permis développer une écoute et un accompagnement spécifique de personnes devant faire face à la perte d'un être cher. J'ai aussi exercé au Point Accueil Ecoute Famille à Vénissieux, accompagnant des enfants et des parents en difficultés.

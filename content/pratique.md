@@ -1,11 +1,7 @@
 +++
 title = "Pratique"
-draft = false
-[menu.main]
-weight = 1
-longtitle = "Infos pratique"
+
 +++
- 
 Contact
 
 Claire Juillard - Psychologue - Lyon
