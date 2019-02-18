@@ -4,14 +4,14 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: document
-  path: data/paramsite.json
-  label: Configuration
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: data/paramsite.json
+  label: Configuration
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
