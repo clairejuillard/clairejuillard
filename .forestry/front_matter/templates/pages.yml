@@ -32,7 +32,7 @@ fields:
   description: Deuxième image à afficher sur le coté de la page
 pages:
 - content/enfants-et-adolescents.md
-- content/pratique.md
 - content/adultes.md
 - content/accueil.md
+- content/pratique.md
 - content/thérapie-emdr.md

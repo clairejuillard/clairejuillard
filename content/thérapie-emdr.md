@@ -1,6 +1,6 @@
 +++
 date = "2019-02-17T17:33:49+00:00"
-image1 = "/uploads/emdr.jpg"
+image1 = "/v1550479287/emdr.jpg"
 image_2 = ""
 longtitle = "L'EMDR comme outil thérapeutique"
 title = "Thérapie EMDR"
