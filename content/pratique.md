@@ -33,51 +33,6 @@ Métro ligne A, arrêt Masséna à 2 minutes
 
 {{% horaires %}}
 
-<table>
-    {{ if $.Site.Data.paramsite.horairesLundi }}
-    <tr>
-        <td>Lundi</td>
-        <td>{{ $.Site.Data.paramsite.horairesLundi }}</td>
-    </tr>
-    {{ end }}
-    {{ if $.Site.Data.paramsite.horairesMardi }}
-    <tr>
-        <td>Mardi</td>
-        <td>{{ $.Site.Data.paramsite.horairesMardi }}</td>
-    </tr>
-    {{ end }}
-    {{ if $.Site.Data.paramsite.horairesMercredi }}
-    <tr>
-        <td>Mercredi</td>
-        <td>{{ $.Site.Data.paramsite.horairesMercredi }}</td>
-    </tr>
-    {{ end }}
-    {{ if $.Site.Data.paramsite.horairesJeudi }}
-    <tr>
-        <td>Jeudi</td>
-        <td>{{ $.Site.Data.paramsite.horairesJeudi }}</td>
-    </tr>
-    {{ end }}
-    {{ if $.Site.Data.paramsite.horairesVendredi }}
-    <tr>
-        <td>Vendredi</td>
-        <td>{{ $.Site.Data.paramsite.horairesVendredi }}</td>
-    </tr>
-    {{ end }}
-    {{ if $.Site.Data.paramsite.horairesSamedi }}
-    <tr>
-        <td>Samedi</td>
-        <td>{{ $.Site.Data.paramsite.horairesSamedi }}</td>
-    </tr>
-    {{ end }}
-    {{ if $.Site.Data.paramsite.horairesDimanche }}
-    <tr>
-        <td>Dimanche</td>
-        <td>{{ $.Site.Data.paramsite.horairesDimanche }}</td>
-    </tr>
-    {{ end }}
-</table>
-
 ## Urgences
 
 Numéros d'urgence
