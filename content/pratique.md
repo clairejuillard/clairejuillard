@@ -20,6 +20,10 @@ Tél. : 06 43 20 57 85
 
 Mail : cjuillard.psychologue@hotmail.com
 
+## Horaires
+
+{{% horaires %}}
+
 ## Accès
 
 112 Rue de Sèze  
@@ -28,10 +32,6 @@ Mail : cjuillard.psychologue@hotmail.com
 Métro ligne A, arrêt Masséna à 2 minutes
 
 {{% map %}}
-
-## Horaires
-
-{{% horaires %}}
 
 ## Urgences
 
