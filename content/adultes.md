@@ -5,10 +5,7 @@ image_2 = ""
 longtitle = "Consultations et thérapies pour adultes"
 title = "Adultes"
 type = ""
-weight = 2
 [menu.main]
-weight = 2
-
 +++
 Chaque **consultation de psychothérapie** est singulière. Elle se base sur votre demande, votre spécificité, et sur notre rencontre particulière. Afin de trouver le rythme et le bon cadre, les premières séances seront essentielles.   
  ​  

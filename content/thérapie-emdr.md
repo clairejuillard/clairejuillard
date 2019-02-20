@@ -5,10 +5,7 @@ image_2 = ""
 longtitle = "L'EMDR comme outil thérapeutique"
 title = "Thérapie EMDR"
 type = ""
-weight = 4
 [menu.main]
-weight = 4
-
 +++
 L'EMDR (Eye Mouvement Desentization et Reprocessing) est une approche thérapeutique spécifique issue d'une articulation entre la psychologie et la neurobiologie.   
    

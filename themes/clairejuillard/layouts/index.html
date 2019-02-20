@@ -64,25 +64,6 @@
 
 	{{ partial "footer.html" . }}
 
-
-	<script>
-		//Gestion de la map
-		mapboxgl.accessToken = '{{ $.Site.Data.paramsite.mapboxkey }}';
-		var map = new mapboxgl.Map({
-			container: 'map',
-			style: 'mapbox://styles/mapbox/streets-v10',
-			center: [{{ $.Site.Data.paramsite.longitude }}, {{ $.Site.Data.paramsite.latitude }}], // starting position [lng, lat]
-		zoom: 14	 // starting zoom
-		});
-
-		map.scrollZoom.disable();
-
-		new mapboxgl.Popup()
-			.setLngLat({ lng: {{ $.Site.Data.paramsite.longitude }}, lat: {{ $.Site.Data.paramsite.latitude }}})
-			.setHTML("<h2><span class='name-brand'>{{ $.Site.Data.paramsite.title }}</span></h2><p>{{ $.Site.Data.paramsite.subtitle }} <br>{{ $.Site.Data.paramsite.location }}<p>")
-			.addTo(map);
-	</script>
-
 </body>
 
 </html>

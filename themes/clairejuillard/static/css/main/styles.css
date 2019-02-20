@@ -11258,26 +11258,8 @@ label.panel-block:hover {
 }
 
 @font-face {
-  font-family: "glyphs";
-  src: url("../../../fonts/Glyphs-Regular.woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "opensans";
-  src: url("../../../fonts/OpenSans-400.woff");
-  font-display: swap;
-}
-
-@font-face {
   font-family: "overlock";
   src: url("../../../fonts/Overlock-Regular.woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "weather";
-  src: url("../../../fonts/Weather.woff");
   font-display: swap;
 }
 
@@ -11377,6 +11359,7 @@ body {
 .content h1 {
   font-family: cinzel;
   color: #025d8c;
+  font-size: 2.5em;
 }
 
 .content h2 {
