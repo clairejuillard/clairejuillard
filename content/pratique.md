@@ -6,6 +6,7 @@ longtitle = "Informations pratique"
 title = "Pratique"
 type = "pratique"
 [menu.main]
+weight = 5
 
 +++
 Psychologue depuis 2011, Claire Juillard reçoit à son cabinet à Lyon enfants, adolescents et adultes. Elle peut intervenir à domicile pour les personnes âgées et les personnes dans l'impossibilité de se déplacer, à Lyon et dans les alentours notamment à Villeurbanne.
