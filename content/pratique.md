@@ -1,8 +1,11 @@
 +++
 date = "2019-02-17T17:33:49+00:00"
+image1 = ""
+image_2 = ""
 longtitle = "Informations pratique"
 title = "Pratique"
-type = ""
+type = "pratique"
+weight = ""
 [menu.main]
 weight = 5
 
@@ -24,7 +27,19 @@ Mail : cjuillard.psychologue@hotmail.com
 
 ## Accès
 
-112 Rue de Sèze   
+112 Rue de Sèze  
 69006 Lyon
 
 Métro ligne A, arrêt Masséna à 2 minutes
+
+## Urgences
+
+Numéros d'urgence
+
+* Appelez les pompiers en composant le 18
+* Appelez le SAMU en composant le 15
+* Appelez la police en composant le 17
+* Services d'Urgences générales
+* Pour connaître le Service d'Urgences Générales le plus proche de chez vous, veuillez consulter le site "hopital.fr" (Fédération Hospitalière de France)
+* Médecin ou pharmacie de garde
+* Pour connaître le médecin et la pharmacie de garde de votre localité, veuillez contacter la gendarmerie la plus proche de chez vous.
