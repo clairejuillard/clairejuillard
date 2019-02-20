@@ -12,11 +12,7 @@
 	<article>
 		<div class="container">
 			<div class='columns'>
-			{{ if eq .Params.type "pratique" }}
-				<div class='column is-12'>
-			{{else}}
 				<div class='column is-7'>
-			{{end}}
 					<div class="content">
 						<header>
 							<h1 class='is-1 title-header-article'>
@@ -32,11 +28,8 @@
 					</div>
 				</div>
 
-				{{ if eq .Params.type "pratique" }}
-
-				{{else}}
-					{{ partial "aside.html" .}}
-				{{end}}
+				{{ partial "aside.html" .}}
+				
 			</div>
 		</div>
 	</article>
