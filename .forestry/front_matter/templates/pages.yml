@@ -27,8 +27,8 @@ fields:
   label: Image 2
   description: Deuxième image à afficher sur le coté de la page
 pages:
-- content/enfants-et-adolescents.md
 - content/adultes.md
-- content/accueil.md
 - content/pratique.md
+- content/enfants-et-adolescents.md
+- content/accueil.md
 - content/thérapie-emdr.md
