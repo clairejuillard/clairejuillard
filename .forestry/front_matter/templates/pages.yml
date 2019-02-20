@@ -14,10 +14,6 @@ fields:
   name: longtitle
   description: Titre qui s'affichera dans la page (peut être différent du titre de
     menu)
-- type: number
-  name: weight
-  label: Poids de la page
-  description: Affichage dans le menu. Le plus petit nombre s'affiche avant
 - type: text
   label: Type de page
   name: type
