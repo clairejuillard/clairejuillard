@@ -1,5 +1,5 @@
 +++
-contentaside = "Test du contenu sur le coté !"
+contentaside = ""
 date = "2019-02-17T17:30:25+00:00"
 image1 = "/v1550479215/bureaupsy.jpg"
 image_2 = ""
