@@ -119,8 +119,15 @@ body{
 	a{
 		color:$couleur-header !important;
 	}
-}
 
+
+}
+ul{
+	li{
+		margin-left:1em;
+		list-style-type:circle;
+	}
+}
 
 .portrait{
 	border-radius: 50%;

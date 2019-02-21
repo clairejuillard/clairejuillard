@@ -11376,6 +11376,11 @@ body {
   color: #025d8c !important;
 }
 
+ul li {
+  margin-left: 1em;
+  list-style-type: circle;
+}
+
 .portrait {
   border-radius: 50%;
 }
