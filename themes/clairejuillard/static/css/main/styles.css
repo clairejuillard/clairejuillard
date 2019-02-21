@@ -11372,6 +11372,10 @@ body {
   color: black;
 }
 
+.content a {
+  color: #025d8c !important;
+}
+
 .portrait {
   border-radius: 50%;
 }
