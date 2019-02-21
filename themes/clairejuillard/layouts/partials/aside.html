@@ -28,7 +28,7 @@
 
         {{ if .Params.contentaside }} 
         <div class='moreContent'>
-            {{ .Params.contentaside }}
+            {{ .Params.contentaside | markdownify }}
         </div>
         {{ end }}
 
