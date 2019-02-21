@@ -11367,6 +11367,11 @@ body {
   color: #025d8c;
 }
 
+.content h3 {
+  font-family: cinzel;
+  color: black;
+}
+
 .portrait {
   border-radius: 50%;
 }

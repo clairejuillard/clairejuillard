@@ -20,7 +20,9 @@ Claire Juillard - Psychologue - Lyon
 
 Tél. : 06 43 20 57 85
 
-Mail : cjuillard.psychologue@hotmail.com
+### Me contacter par email
+
+{{% contactform %}}
 
 ## Horaires
 
