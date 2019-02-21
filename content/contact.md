@@ -1,5 +1,5 @@
 +++
-contentaside = ""
+contentaside = "## Urgences\n\nNuméros d'urgence\n\n* Appelez les pompiers en composant le 18\n* Appelez le SAMU en composant le 15\n* Appelez la police en composant le 17\n* Services d'Urgences générales\n* Pour connaître le Service d'Urgences Générales le plus proche de chez vous, veuillez consulter le site \"hopital.fr\" (Fédération Hospitalière de France)\n* Médecin ou pharmacie de garde\n* Pour connaître le médecin et la pharmacie de garde de votre localité, veuillez contacter la gendarmerie la plus proche de chez vous."
 date = "2019-02-17T17:33:49+00:00"
 image1 = "/v1550685531/brooke-lark-194254-unsplash.jpg"
 image_2 = ""
@@ -36,15 +36,3 @@ Tél. : [06 43 20 57 85](tel:0643205785)
 Métro ligne A, arrêt Masséna à 2 minutes
 
 {{% map %}}
-
-## Urgences
-
-Numéros d'urgence
-
-* Appelez les pompiers en composant le 18
-* Appelez le SAMU en composant le 15
-* Appelez la police en composant le 17
-* Services d'Urgences générales
-* Pour connaître le Service d'Urgences Générales le plus proche de chez vous, veuillez consulter le site "hopital.fr" (Fédération Hospitalière de France)
-* Médecin ou pharmacie de garde
-* Pour connaître le médecin et la pharmacie de garde de votre localité, veuillez contacter la gendarmerie la plus proche de chez vous.
