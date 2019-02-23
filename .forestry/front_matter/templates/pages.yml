@@ -35,8 +35,8 @@ fields:
     schema:
       format: markdown
 pages:
-- content/psychologue.md
-- content/enfants-adolescents.md
-- content/therapie-emdr.md
 - content/contact.md
+- content/therapie-emdr.md
+- content/enfants-adolescents.md
+- content/psychologue.md
 - content/accueil.md
