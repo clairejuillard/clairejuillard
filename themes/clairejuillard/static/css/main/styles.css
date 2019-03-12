@@ -11259,13 +11259,13 @@ label.panel-block:hover {
 
 @font-face {
   font-family: "overlock";
-  src: url("../../../fonts/Overlock-Regular.woff");
+  src: url("../../fonts/Overlock-Regular.woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "cinzel";
-  src: url("../../../fonts/Cinzel.woff");
+  src: url("../../fonts/Cinzel.woff");
   font-display: swap;
 }
 
