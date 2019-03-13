@@ -1,4 +1,4 @@
-baseURL = "https://clairejuillard.netlify.com/"
+baseURL = "https://www.claire-juillard-psychologue.fr/"
 languageCode = "fr-FR"
 theme = "clairejuillard"
 [params]
