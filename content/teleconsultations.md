@@ -5,6 +5,8 @@ image_2 = ""
 longtitle = "Les téléconsultations"
 title = "Téléconsultations"
 type = ""
+[menu.main]
+weight = 3
 
 +++
 Je propose des consultations en visio pour les personnes ne pouvant pas se déplacer au cabinet.
