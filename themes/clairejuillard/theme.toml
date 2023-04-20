@@ -8,7 +8,7 @@ description = "Claire Juillard cabinet de psychothérapies"
 homepage = "https://www.claire-juillard-psychologue.fr/"
 tags = []
 features = []
-min_version = "0.51"
+min_version = "0.111"
 
 [author]
   name = "Fabien Grignoux"
