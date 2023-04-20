@@ -1,38 +1,21 @@
-<div class='column is-5'>
-    <aside>
-        {{ if .Params.image1 }} 
-        <div class='moreContent'>
-            <div class='imageSide'>
-                <img class="lazy" src='{{ "img/placeholder.png" | absURL }}' srcset="{{ $.Site.Data.paramsite.baseUrlImage }}w_400/{{ .Params.image1 }} 800w,
-                    {{ $.Site.Data.paramsite.baseUrlImage }}w_500/{{ .Params.image1 }} 710w,
-                    {{ $.Site.Data.paramsite.baseUrlImage }}w_600/{{ .Params.image1 }} 1000w,
-                    {{ $.Site.Data.paramsite.baseUrlImage }}w_700/{{ .Params.image1 }} 1420w"
-                    data-src="{{ $.Site.Data.paramsite.baseUrlImage  }}w_700/{{ .Params.image1 }}"
-                    alt="" />
-            </div>
-        </div>
-        {{ end }}
-
-        {{ if .Params.image_2 }} 
-        <div class='moreContent'>
-            <div class='imageSide'>
-                <img class="lazy" src='{{ "img/placeholder.png" | absURL }}' srcset="{{ $.Site.Data.paramsite.baseUrlImage }}w_400/{{ .Params.image_2 }} 800w,
-                    {{ $.Site.Data.paramsite.baseUrlImage }}w_500/{{ .Params.image_2 }} 710w,
-                    {{ $.Site.Data.paramsite.baseUrlImage }}w_600/{{ .Params.image_2 }} 1000w,
-                    {{ $.Site.Data.paramsite.baseUrlImage }}w_700/{{ .Params.image_2 }} 1420w"
-                    data-src="{{ $.Site.Data.paramsite.baseUrlImage  }}w_700/{{ .Params.image_2 }}"
-                    alt="" />
-            </div>
-        </div>
-        {{ end }}
-
-        {{ if .Params.contentaside }} 
-        <div class='moreContent'>
-            {{ .Params.contentaside | markdownify }}
-        </div>
-        {{ end }}
-
-        
-    </aside>
-
+<div class="column is-5">
+  <aside>
+    <div class="moreContent">
+      <div class="imageSide">
+        {{$image := resources.Get .Params.image }} <img class="lazy"
+        src="{{($image.Resize "600x").RelPermalink}}" alt="Photo du cabinet" />
+      </div>
+    </div>
+    {{ if .Params.image }} {{ end }} {{ if .Params.imagebis }}
+    <div class="moreContent">
+      <div class="imageSide">
+        {{$image2 := resources.Get .Params.imagebis }}<img class="lazy"
+        src="{{($image2.Resize "600x").RelPermalink }}" alt="Photo du cabinet"
+        />
+      </div>
+    </div>
+    {{ end }} {{ if .Params.contentaside }}
+    <div class="moreContent">{{ .Params.contentaside | markdownify }}</div>
+    {{ end }}
+  </aside>
 </div>

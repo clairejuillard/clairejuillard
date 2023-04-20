@@ -1,8 +1,8 @@
 +++
 contentaside = "## Urgences\n\nNuméros d'urgence : \n\n* Appelez les pompiers en composant le 18\n* Appelez le SAMU en composant le 15\n* Appelez la police en composant le 17\n* Services d'Urgences générales\n* Pour connaître le Service d'Urgences Générales le plus proche de chez vous, veuillez consulter le site \"hopital.fr\" (Fédération Hospitalière de France)\n* Médecin ou pharmacie de garde\n* Pour connaître le médecin et la pharmacie de garde de votre localité, veuillez contacter la gendarmerie la plus proche de chez vous."
 date = "2019-02-17T17:33:49+00:00"
-image1 = "/v1550685531/brooke-lark-194254-unsplash.jpg"
-image_2 = ""
+image = "img/bureaupsy.jpg"
+imagebis = ""
 longtitle = "Informations pratique"
 title = "Pratique"
 type = "pratique"
@@ -10,6 +10,7 @@ type = "pratique"
 weight = 5
 
 +++
+
 Psychologue depuis 2011, Claire Juillard reçoit à son cabinet à Lyon enfants, adolescents et adultes. Elle peut intervenir à domicile pour les personnes âgées et les personnes dans l'impossibilité de se déplacer, à Lyon et dans les alentours notamment à Villeurbanne.
 
 Moyens de paiement par chèque ou espèces
@@ -26,13 +27,13 @@ Me contacter par email
 
 ## Horaires
 
-{{% horaires %}}
+{{< horaires >}}
 
 ## Accès
 
-112 Rue de Sèze  
-69006 Lyon
+49 cours Gambetta
+69003 Lyon
 
-Métro ligne A, arrêt Masséna à 2 minutes
+Métro ligne B et D, arrêt Saxe Gambetta
 
 {{% map %}}

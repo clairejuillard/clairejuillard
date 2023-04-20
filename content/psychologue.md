@@ -1,8 +1,8 @@
 +++
 contentaside = ""
 date = "2019-02-17T17:30:25+00:00"
-image1 = "/v1550479215/bureaupsy.jpg"
-image_2 = ""
+image = "img/salleattente.jpg"
+imagebis = ""
 longtitle = "Consultations et thérapies pour adultes"
 title = "Adultes"
 type = ""
@@ -10,6 +10,7 @@ type = ""
 weight = 2
 
 +++
+
 Chaque **consultation de psychothérapie** est singulière. Elle se base sur votre demande, votre spécificité, et sur notre rencontre particulière. Afin de trouver le rythme et le bon cadre, les premières séances seront essentielles.  
 ​  
 Les consultations peuvent avoir pour objectif un **accompagnement** ponctuel après une épreuve de vie par exemple. En quelques séances, nous pourrons cheminer ensemble et chercher à renforcer vos ressources personnelles.  

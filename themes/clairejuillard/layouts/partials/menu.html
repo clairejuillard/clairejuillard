@@ -1,35 +1,39 @@
 <div class="bloc-portrait">
-  <div class='container'>
-    <div class='columns'>
-      <div class='column is-2 has-text-centered'>
-        <img class='lazy portrait portrait-claire' src='{{ "img/placeholder.png" | absURL }}' data-src='{{ "/img/portrait-carre-2.jpg" | absURL }}'
-          alt="portrait de Claire Juillard" />
+  <div class="container">
+    <div class="columns">
+      <div class="column is-2 has-text-centered">
+        <img
+          class="lazy portrait portrait-claire"
+          src='{{ "img/portrait-carre-2.jpg" | absURL }}'
+          alt="portrait de Claire Juillard"
+        />
       </div>
-      <div class='column titles'>
-        <h1 class='is-1'>{{ $.Site.Data.paramsite.title }} <span style = "display: block; font-size:0.75em;">{{ $.Site.Data.paramsite.subtitle }}</span></h1>
-        <p class='subtitle'>{{ $.Site.Data.paramsite.subtitle2 }}</p>
+      <div class="column titles">
+        <h1 class="is-1">
+          {{ $.Site.Data.paramsite.title }}
+          <span style="display: block; font-size: 0.75em"
+            >{{ $.Site.Data.paramsite.subtitle }}</span
+          >
+        </h1>
+        <p class="subtitle">{{ $.Site.Data.paramsite.subtitle2 }}</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="is-hidden-mobile">
-    <nav class="navbar menuGeneral ">
-        <div class="container ">
-          <div class='column has-text-centered'>
-            <div id="navMenuDesktop" class="navbar-menu">
-              {{ $currentPage := . }}
-              {{ range .Site.Menus.main }}
-              {{ if .HasChildren }}
-              {{ else }}
-              <a class='nav-link navbar-item' href="{{ .URL | absURL }}">
-                {{ .Name }}
-              </a>
-              {{ end }}
-              {{ end }}
-            </div>
-          </div>
+  <nav class="navbar menuGeneral">
+    <div class="container">
+      <div class="column has-text-centered">
+        <div id="navMenuDesktop" class="navbar-menu">
+          {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if
+          .HasChildren }} {{ else }}
+          <a class="nav-link navbar-item" href="{{ .URL | absURL }}">
+            {{ .Name }}
+          </a>
+          {{ end }} {{ end }}
         </div>
-      </nav>
-
+      </div>
+    </div>
+  </nav>
 </div>
